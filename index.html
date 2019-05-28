@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Josue Garcia | Web Dev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="business-card middle">
+    <div class="front">
+      <h2>Josue Garcia</h2>
+      <span>Web Developer</span>
+      <ul class="contact-info">
+        <li>
+          <i class="fas fa-mobile-alt"></i> (801) 636-6404
+        </li>
+        <li>
+          <i class="far fa-envelope"></i> josuegarcia.dev@gmail.com
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt"></i> Orem, UT
+        </li>
+      </ul>
+    </div>
+    <div class="back">
+      <span>JosueGarcia.dev</span>
+    </div>
+  </div>
+
+  <script>
+    $(".business-card").click(function () {
+      $(".business-card").toggleClass("business-card-active");
+    });
+  </script>
+</body>
+
+</html>
